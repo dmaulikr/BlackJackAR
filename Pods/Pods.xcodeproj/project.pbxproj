@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CBFE8045096DC3289FB26AE7AB6C5CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		284077FD9BE9A7A58D36F6921B035B55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3538DFA343A2D3429A02750CFD7217A4 /* Pods-BlackJackARUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E658174B776152532D7FFB5485B4BD0 /* Pods-BlackJackARUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56624C3FEC84852BA19B09ACC5EDEAD5 /* Pods-BlackJackARTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BB606D9ADA5EE44D7FFA72B56AF0CEB /* Pods-BlackJackARTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2CD4C86F745163F2F468162BFCC8D87 /* Pods-BlackJackARUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CFCF6F03CE512FB599BB6A181441A0B /* Pods-BlackJackARUITests-dummy.m */; };
+		C06B1ED1CA058ACE0CCD16C889ABD11E /* Pods-BlackJackARTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5663F92C7A7D34613564EEB0EE6233D /* Pods-BlackJackARTests-dummy.m */; };
+		CE904BAD44216732DCAC9701CB5B8E87 /* Pods-BlackJackAR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD948F7CEFCB61BD09699CF0C79109A /* Pods-BlackJackAR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D823E3AAC3C4D52A5FCA5855C09C0C0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D978ED0B7DBFD85FDE84642B441C8589 /* Pods-BlackJackAR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA7DF01430D42947D9D02533B56F85E /* Pods-BlackJackAR-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		022303DBB840B879654755ABEC225190 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1914A5E1F211724C2F49C63895709F01 /* Pods_BlackJackARTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BlackJackARTests.framework; path = "Pods-BlackJackARTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D77E86338B542775653CB168934EED6 /* Pods-BlackJackAR-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlackJackAR-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F9ECD133A0C328C6F1FF8B703FE0B32 /* Pods-BlackJackAR-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlackJackAR-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E658174B776152532D7FFB5485B4BD0 /* Pods-BlackJackARUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlackJackARUITests-umbrella.h"; sourceTree = "<group>"; };
+		3AA7DF01430D42947D9D02533B56F85E /* Pods-BlackJackAR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlackJackAR-dummy.m"; sourceTree = "<group>"; };
+		3CFCF6F03CE512FB599BB6A181441A0B /* Pods-BlackJackARUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlackJackARUITests-dummy.m"; sourceTree = "<group>"; };
+		43E7992B88371D3EB4E85985C09A553E /* Pods-BlackJackARUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BlackJackARUITests.modulemap"; sourceTree = "<group>"; };
+		449C0A63CED2B72598CC300925C03A9B /* Pods-BlackJackAR-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlackJackAR-resources.sh"; sourceTree = "<group>"; };
+		483A67B663233C348C8839E6552B307C /* Pods-BlackJackARUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlackJackARUITests-resources.sh"; sourceTree = "<group>"; };
+		4EB751398A425B7AD09C2F750997C148 /* Pods-BlackJackARTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlackJackARTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4EC254959ECFC599145484C297937C43 /* Pods-BlackJackAR-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlackJackAR-frameworks.sh"; sourceTree = "<group>"; };
+		5AD948F7CEFCB61BD09699CF0C79109A /* Pods-BlackJackAR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlackJackAR-umbrella.h"; sourceTree = "<group>"; };
+		6228D125159ED04835AD69AA7D9DDBFE /* Pods-BlackJackARTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BlackJackARTests.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F298984F9B27EB63177EC9435B104A6 /* Pods-BlackJackARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlackJackARUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		77459325419F38A853C96B441AFBE8CC /* Pods-BlackJackARTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlackJackARTests-frameworks.sh"; sourceTree = "<group>"; };
+		79355F51673C48F7F341E068FDEA3ECD /* Pods-BlackJackARUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlackJackARUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D2EABBF3CA2C6348F8FE1379C6D3925 /* Pods-BlackJackARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlackJackARUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7F27F959234DEB3CCED3B257D26DEFCD /* Pods_BlackJackAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BlackJackAR.framework; path = "Pods-BlackJackAR.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85AEDA555C1B7A152C950C2175BD4D92 /* Pods-BlackJackAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlackJackAR.debug.xcconfig"; sourceTree = "<group>"; };
+		8BB606D9ADA5EE44D7FFA72B56AF0CEB /* Pods-BlackJackARTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlackJackARTests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		996A4A9B3CB95B9FA06E0DA9B917F37B /* Pods-BlackJackARUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlackJackARUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A055A275E0D00881BCA481576BBE410B /* Pods_BlackJackARUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BlackJackARUITests.framework; path = "Pods-BlackJackARUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F61C46D16E474C8DDF284172C25FE4 /* Pods-BlackJackARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlackJackARTests.release.xcconfig"; sourceTree = "<group>"; };
+		A8156B90D8F4BAD7B8DE1B0A530118DD /* Pods-BlackJackAR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BlackJackAR.modulemap"; sourceTree = "<group>"; };
+		A8172B297007B6BE0E8513489EF1B72D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6C5C8AC9401DDCBCAD0904B732200E /* Pods-BlackJackARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlackJackARTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C38EEBA6EC4A56D5AA8C58710CF0CDAD /* Pods-BlackJackAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlackJackAR.release.xcconfig"; sourceTree = "<group>"; };
+		CCF66004D9269406411F861CD67B8CDA /* Pods-BlackJackARUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlackJackARUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF0C0A95EF32328BCD8D9D5A278A1F98 /* Pods-BlackJackARTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlackJackARTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8DE2274FF47391B3B5BF8AC2FE8DA37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E646FFE80C1F6BAEC3939B34DFA66BD4 /* Pods-BlackJackARTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlackJackARTests-resources.sh"; sourceTree = "<group>"; };
+		F5663F92C7A7D34613564EEB0EE6233D /* Pods-BlackJackARTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlackJackARTests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14B44F7268748BE00C39CA9B9BB7D1C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284077FD9BE9A7A58D36F6921B035B55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F39BC94DCDB88F7EB5D778DE6C53FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBFE8045096DC3289FB26AE7AB6C5CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C30E55A5885A007A836357D742F9EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D823E3AAC3C4D52A5FCA5855C09C0C0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11731B982C7FCCF2D6A5BF8FFCFE2F2B /* Pods-BlackJackARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8DE2274FF47391B3B5BF8AC2FE8DA37 /* Info.plist */,
+				43E7992B88371D3EB4E85985C09A553E /* Pods-BlackJackARUITests.modulemap */,
+				CCF66004D9269406411F861CD67B8CDA /* Pods-BlackJackARUITests-acknowledgements.markdown */,
+				79355F51673C48F7F341E068FDEA3ECD /* Pods-BlackJackARUITests-acknowledgements.plist */,
+				3CFCF6F03CE512FB599BB6A181441A0B /* Pods-BlackJackARUITests-dummy.m */,
+				996A4A9B3CB95B9FA06E0DA9B917F37B /* Pods-BlackJackARUITests-frameworks.sh */,
+				483A67B663233C348C8839E6552B307C /* Pods-BlackJackARUITests-resources.sh */,
+				2E658174B776152532D7FFB5485B4BD0 /* Pods-BlackJackARUITests-umbrella.h */,
+				6F298984F9B27EB63177EC9435B104A6 /* Pods-BlackJackARUITests.debug.xcconfig */,
+				7D2EABBF3CA2C6348F8FE1379C6D3925 /* Pods-BlackJackARUITests.release.xcconfig */,
+			);
+			name = "Pods-BlackJackARUITests";
+			path = "Target Support Files/Pods-BlackJackARUITests";
+			sourceTree = "<group>";
+		};
+		6CF83BBDE94713FD1B3BB68C32526DC7 /* Pods-BlackJackARTests */ = {
+			isa = PBXGroup;
+			children = (
+				022303DBB840B879654755ABEC225190 /* Info.plist */,
+				6228D125159ED04835AD69AA7D9DDBFE /* Pods-BlackJackARTests.modulemap */,
+				4EB751398A425B7AD09C2F750997C148 /* Pods-BlackJackARTests-acknowledgements.markdown */,
+				CF0C0A95EF32328BCD8D9D5A278A1F98 /* Pods-BlackJackARTests-acknowledgements.plist */,
+				F5663F92C7A7D34613564EEB0EE6233D /* Pods-BlackJackARTests-dummy.m */,
+				77459325419F38A853C96B441AFBE8CC /* Pods-BlackJackARTests-frameworks.sh */,
+				E646FFE80C1F6BAEC3939B34DFA66BD4 /* Pods-BlackJackARTests-resources.sh */,
+				8BB606D9ADA5EE44D7FFA72B56AF0CEB /* Pods-BlackJackARTests-umbrella.h */,
+				BA6C5C8AC9401DDCBCAD0904B732200E /* Pods-BlackJackARTests.debug.xcconfig */,
+				A5F61C46D16E474C8DDF284172C25FE4 /* Pods-BlackJackARTests.release.xcconfig */,
+			);
+			name = "Pods-BlackJackARTests";
+			path = "Target Support Files/Pods-BlackJackARTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9CF6C466C71079CBC6C431E7EC057D09 /* Products */,
+				D808E526EBA96644FA0EDDC9B52073E7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9CF6C466C71079CBC6C431E7EC057D09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F27F959234DEB3CCED3B257D26DEFCD /* Pods_BlackJackAR.framework */,
+				1914A5E1F211724C2F49C63895709F01 /* Pods_BlackJackARTests.framework */,
+				A055A275E0D00881BCA481576BBE410B /* Pods_BlackJackARUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D808E526EBA96644FA0EDDC9B52073E7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCF0297923124949A4C26CB1CA2135A0 /* Pods-BlackJackAR */,
+				6CF83BBDE94713FD1B3BB68C32526DC7 /* Pods-BlackJackARTests */,
+				11731B982C7FCCF2D6A5BF8FFCFE2F2B /* Pods-BlackJackARUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DCF0297923124949A4C26CB1CA2135A0 /* Pods-BlackJackAR */ = {
+			isa = PBXGroup;
+			children = (
+				A8172B297007B6BE0E8513489EF1B72D /* Info.plist */,
+				A8156B90D8F4BAD7B8DE1B0A530118DD /* Pods-BlackJackAR.modulemap */,
+				1F9ECD133A0C328C6F1FF8B703FE0B32 /* Pods-BlackJackAR-acknowledgements.markdown */,
+				1D77E86338B542775653CB168934EED6 /* Pods-BlackJackAR-acknowledgements.plist */,
+				3AA7DF01430D42947D9D02533B56F85E /* Pods-BlackJackAR-dummy.m */,
+				4EC254959ECFC599145484C297937C43 /* Pods-BlackJackAR-frameworks.sh */,
+				449C0A63CED2B72598CC300925C03A9B /* Pods-BlackJackAR-resources.sh */,
+				5AD948F7CEFCB61BD09699CF0C79109A /* Pods-BlackJackAR-umbrella.h */,
+				85AEDA555C1B7A152C950C2175BD4D92 /* Pods-BlackJackAR.debug.xcconfig */,
+				C38EEBA6EC4A56D5AA8C58710CF0CDAD /* Pods-BlackJackAR.release.xcconfig */,
+			);
+			name = "Pods-BlackJackAR";
+			path = "Target Support Files/Pods-BlackJackAR";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C81A400A40827E8FC8591F1E4779555 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56624C3FEC84852BA19B09ACC5EDEAD5 /* Pods-BlackJackARTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366751626EEB012B58DA3EE38CB64D6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3538DFA343A2D3429A02750CFD7217A4 /* Pods-BlackJackARUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737348237D9BDCA3DCCC58ADE49F0294 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE904BAD44216732DCAC9701CB5B8E87 /* Pods-BlackJackAR-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12A1404D2F1404BAE34E06584585094A /* Pods-BlackJackARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2CF31296EC8EBE070328D50D01B0FC1 /* Build configuration list for PBXNativeTarget "Pods-BlackJackARUITests" */;
+			buildPhases = (
+				D551768629E6CE5D5F00E408233EDEF4 /* Sources */,
+				4F39BC94DCDB88F7EB5D778DE6C53FF5 /* Frameworks */,
+				366751626EEB012B58DA3EE38CB64D6F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BlackJackARUITests";
+			productName = "Pods-BlackJackARUITests";
+			productReference = A055A275E0D00881BCA481576BBE410B /* Pods_BlackJackARUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7AE1E52A94501DA9F8BE69A0E733BE93 /* Pods-BlackJackARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D5BA5DEE0DFCEF6636F8B1A3D84087E /* Build configuration list for PBXNativeTarget "Pods-BlackJackARTests" */;
+			buildPhases = (
+				B0B9386D4EE8813A71454BB2C7FA8AA4 /* Sources */,
+				14B44F7268748BE00C39CA9B9BB7D1C2 /* Frameworks */,
+				0C81A400A40827E8FC8591F1E4779555 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BlackJackARTests";
+			productName = "Pods-BlackJackARTests";
+			productReference = 1914A5E1F211724C2F49C63895709F01 /* Pods_BlackJackARTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9441190AC4D87979AE4903B5A3150FF8 /* Pods-BlackJackAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B95CDE2697687DA0377EC6CB4F7B8E0 /* Build configuration list for PBXNativeTarget "Pods-BlackJackAR" */;
+			buildPhases = (
+				B87B2841D59EA1ED385AE26B142BEE47 /* Sources */,
+				9C30E55A5885A007A836357D742F9EA6 /* Frameworks */,
+				737348237D9BDCA3DCCC58ADE49F0294 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BlackJackAR";
+			productName = "Pods-BlackJackAR";
+			productReference = 7F27F959234DEB3CCED3B257D26DEFCD /* Pods_BlackJackAR.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9CF6C466C71079CBC6C431E7EC057D09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9441190AC4D87979AE4903B5A3150FF8 /* Pods-BlackJackAR */,
+				7AE1E52A94501DA9F8BE69A0E733BE93 /* Pods-BlackJackARTests */,
+				12A1404D2F1404BAE34E06584585094A /* Pods-BlackJackARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0B9386D4EE8813A71454BB2C7FA8AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06B1ED1CA058ACE0CCD16C889ABD11E /* Pods-BlackJackARTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B87B2841D59EA1ED385AE26B142BEE47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D978ED0B7DBFD85FDE84642B441C8589 /* Pods-BlackJackAR-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D551768629E6CE5D5F00E408233EDEF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2CD4C86F745163F2F468162BFCC8D87 /* Pods-BlackJackARUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B5A75B7FF70BE991B4897AAC72E1439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85AEDA555C1B7A152C950C2175BD4D92 /* Pods-BlackJackAR.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BlackJackAR/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlackJackAR/Pods-BlackJackAR.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BlackJackAR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D24CD9287C3FB4997A1D79C04CAA1F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D2EABBF3CA2C6348F8FE1379C6D3925 /* Pods-BlackJackARUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BlackJackARUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlackJackARUITests/Pods-BlackJackARUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BlackJackARUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D144F724433A09597E3476A57631255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8DA43EC222A276BB7F28FC8FF97DD762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6C5C8AC9401DDCBCAD0904B732200E /* Pods-BlackJackARTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BlackJackARTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlackJackARTests/Pods-BlackJackARTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BlackJackARTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B8087F44E31F3946234AC83F68E18BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C38EEBA6EC4A56D5AA8C58710CF0CDAD /* Pods-BlackJackAR.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BlackJackAR/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlackJackAR/Pods-BlackJackAR.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BlackJackAR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ACDF32CAF32BA4D352B5CFFADEDC233F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F61C46D16E474C8DDF284172C25FE4 /* Pods-BlackJackARTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BlackJackARTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlackJackARTests/Pods-BlackJackARTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BlackJackARTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B34B39F3898C31EE9419E2082D477B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F298984F9B27EB63177EC9435B104A6 /* Pods-BlackJackARUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BlackJackARUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlackJackARUITests/Pods-BlackJackARUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BlackJackARUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D144F724433A09597E3476A57631255 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B95CDE2697687DA0377EC6CB4F7B8E0 /* Build configuration list for PBXNativeTarget "Pods-BlackJackAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B5A75B7FF70BE991B4897AAC72E1439 /* Debug */,
+				9B8087F44E31F3946234AC83F68E18BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D5BA5DEE0DFCEF6636F8B1A3D84087E /* Build configuration list for PBXNativeTarget "Pods-BlackJackARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA43EC222A276BB7F28FC8FF97DD762 /* Debug */,
+				ACDF32CAF32BA4D352B5CFFADEDC233F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2CF31296EC8EBE070328D50D01B0FC1 /* Build configuration list for PBXNativeTarget "Pods-BlackJackARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B34B39F3898C31EE9419E2082D477B5E /* Debug */,
+				6D24CD9287C3FB4997A1D79C04CAA1F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
