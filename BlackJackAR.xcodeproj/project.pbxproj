@@ -725,6 +725,7 @@
 				50209EA21F36420F00C058A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50209EA31F36420F00C058A4 /* Build configuration list for PBXNativeTarget "BlackJackARTests" */ = {
 			isa = XCConfigurationList;
@@ -733,6 +734,7 @@
 				50209EA51F36420F00C058A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50209EA61F36420F00C058A4 /* Build configuration list for PBXNativeTarget "BlackJackARUITests" */ = {
 			isa = XCConfigurationList;
@@ -741,6 +743,7 @@
 				50209EA81F36420F00C058A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
