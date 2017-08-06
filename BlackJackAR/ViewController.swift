@@ -14,8 +14,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
     var planes = [OverlayPlane]()
-    var cards = [SCNBox]()
-    
+    var cards = [SCNNode]()
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -54,7 +53,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     private func registerGestureRecognizers() {
         
-        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(makeTable))
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapped))
         tapGestureRecognizer.numberOfTapsRequired = 1
         self.sceneView.addGestureRecognizer(tapGestureRecognizer)
     }
@@ -78,25 +77,24 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             sceneView.delegate = nil
             self.planes.removeAll()
             self.planes.append(firstPlane)
-            self.initDeck(plane: firstPlane)
         }
     }
     
-    func initDeck(plane: OverlayPlane){
-        var index: Int = 0
-        while index < 52 {
-            let card: SCNBox = SCNBox(width: 0.06350, height: 0.01, length: 0.0889, chamferRadius: 0.0)
+    func initDeck(hitResult :ARHitTestResult){
+            let card: SCNBox = SCNBox(width: 0.06350, height: 0.052, length: 0.0889, chamferRadius: 0.0)
             let material = SCNMaterial()
             material.diffuse.contents = UIImage(named: "card_background")
             card.materials = [ SCNMaterial(), SCNMaterial(), SCNMaterial(), SCNMaterial(), material, SCNMaterial()]
             let boxNode = SCNNode(geometry: card)
-            boxNode.position = SCNVector3(plane.worldPosition.x,plane.worldPosition.y + Float(index / 100), plane.worldPosition.z)
+            boxNode.physicsBody = SCNPhysicsBody(type: .static, shape: nil)
+            boxNode.physicsBody?.categoryBitMask = 1
+            boxNode.position = SCNVector3(hitResult.worldTransform.columns.3.x,hitResult.worldTransform.columns.3.y + Float(0.1), hitResult.worldTransform.columns.3.z)
             self.sceneView.scene.rootNode.addChildNode(boxNode)
-            index += 1
-        }
+            self.cards.append(boxNode)
+        
     }
     
-    @objc func putDownBox(recognizer :UIGestureRecognizer) {
+    @objc func tapped(recognizer :UIGestureRecognizer) {
         
         let sceneView = recognizer.view as! ARSCNView
         let touchLocation = recognizer.location(in: sceneView)
@@ -108,25 +106,11 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             guard let hitResult = hitTestResult.first else {
                 return
             }
-            addBox(hitResult :hitResult)
+            initDeck(hitResult :hitResult)
         }
     }
     
-    private func addBox(hitResult :ARHitTestResult) {
-        
-        let boxGeometry = SCNBox(width: 0.2, height: 0.2, length: 0.1, chamferRadius: 0)
-        let material = SCNMaterial()
-        material.diffuse.contents = UIColor.red
-        
-        boxGeometry.materials = [material]
-        
-        let boxNode = SCNNode(geometry: boxGeometry)
-        
-        boxNode.position = SCNVector3(hitResult.worldTransform.columns.3.x,hitResult.worldTransform.columns.3.y + Float(boxGeometry.height/2), hitResult.worldTransform.columns.3.z)
-        
-        self.sceneView.scene.rootNode.addChildNode(boxNode)
-        
-    }
+    
     
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         
